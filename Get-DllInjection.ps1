@@ -11,7 +11,7 @@ public static extern bool IsWow64Process(
 
 $AllInMemoryOrderModuleList = @()
 
-$DllModule = Get-Process | Where-Object {$_ -ne $null -and $_.Path.StartsWith("C:\Windows\") -and $_.Id -ne $PID} | ForEach-Object {
+$DllModule = Get-Process | Where-Object {$_.Path -ne $null -and $_.Path.StartsWith("C:\Windows\") -and $_.Id -ne $PID} | ForEach-Object {
     Write-Host $_.Id 
     Write-Host $_.Name
     $Process = $_
