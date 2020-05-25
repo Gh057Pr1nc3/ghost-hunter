@@ -17,7 +17,7 @@ $DllModule = Get-Process | Where-Object {$_.Path -ne $null -and $_.Id -ne $PID} 
     $Process = $_
     $is32Bit=[int]0 
     $a = [Kernel32.NativeMethods]::IsWow64Process($_.Handle, [ref]$is32Bit)
-    if($is32Bit -and [Environment]::Is64BitOperatingSystem){
+    if($is32Bit){
         $InMemoryOrderModuleList = &"$env:windir\SysWow64\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -Command "(Get-PEB -Id $($_.Id)).InMemoryOrderModuleList | ConvertTo-CSV" | ConvertFrom-Csv
 		
     }

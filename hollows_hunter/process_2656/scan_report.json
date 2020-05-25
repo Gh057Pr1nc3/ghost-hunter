@@ -1,0 +1,50 @@
+{
+ "pid" : 2656,
+ "main_image_path" : "C:\\Users\\Admin\\AppData\\Roaming\\dZYayWzy.exe",
+ "scanned" : 
+ {
+  "total" : 70,
+  "skipped" : 9,
+  "modified" : 
+  {
+   "total" : 2,
+   "patched" : 0,
+   "iat_hooked" : 0,
+   "replaced" : 0,
+   "hdr_modified" : 0,
+   "detached" : 0,
+   "implanted" : 1,
+   "other" : 1
+  },
+  "errors" : 0
+ },
+ "scans" : [
+  {
+   "mapping_scan" : {
+    "module" : "400000",
+    "module_file" : "C:\\Users\\Admin\\AppData\\Roaming\\dZYayWzy.exe",
+    "mapped_file" : "",
+    "status" : 1
+   }
+  },
+  {
+   "workingset_scan" : {
+    "module" : "400000",
+    "status" : 1,
+    "has_pe" : 1,
+    "has_shellcode" : 0,
+    "is_listed_module" : 1,
+    "protection" : "40",
+    "mapping_type" : "MEM_PRIVATE",
+    "pe_artefacts" : {
+     "pe_base_offset" : "0",
+     "nt_file_hdr" : "84",
+     "sections_hdrs" : "178",
+     "sections_count" : 3,
+     "is_dll" : 0,
+     "is_64_bit" : 0
+    }
+   }
+  }
+ ]
+}

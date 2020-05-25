@@ -1,0 +1,27 @@
+{
+ "pid" : 2656,
+ "output_dir" : "process_2656",
+ "dumped" : 
+ {
+  "total" : 2,
+  "dumped" : 2
+ },
+ "dumps" : [
+  {
+   "module" : "400000",
+   "module_size" : "38000",
+   "dump_file" : "400000.dZYayWzy.exe",
+   "dump_mode" : "UNMAPPED",
+   "is_shellcode" : 0,
+   "status" : 1
+  },
+  {
+   "module" : "400000",
+   "module_size" : "38000",
+   "dump_file" : "400000.dZYayWzy.exe",
+   "dump_mode" : "UNMAPPED",
+   "is_shellcode" : 0,
+   "status" : 1
+  }
+ ]
+}

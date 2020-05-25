@@ -1,0 +1,19 @@
+{
+ "pid" : 2780,
+ "output_dir" : "process_2780",
+ "dumped" : 
+ {
+  "total" : 1,
+  "dumped" : 1
+ },
+ "dumps" : [
+  {
+   "module" : "1a9d0000",
+   "module_size" : "33000",
+   "dump_file" : "1a9d0000.exe",
+   "dump_mode" : "UNMAPPED",
+   "is_shellcode" : 0,
+   "status" : 1
+  }
+ ]
+}

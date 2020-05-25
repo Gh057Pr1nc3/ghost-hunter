@@ -72,7 +72,7 @@ function Get-InjectedThread
                 {
                     $BaseAddress = NtQueryInformationThread -ThreadHandle $hThread
                     $hProcess = OpenProcess -ProcessId $proc.Id -DesiredAccess PROCESS_ALL_ACCESS -InheritHandle $false
-
+                    Write-Verbose -Message "Thread BaseAddress: [0x$($BaseAddress.ToString("X$([IntPtr]::Size*2)")))]"
                     if($hProcess -ne 0)
                     {
                         $memory_basic_info = VirtualQueryEx -ProcessHandle $hProcess -BaseAddress $BaseAddress

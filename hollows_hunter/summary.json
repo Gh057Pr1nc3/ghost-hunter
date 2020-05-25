@@ -1,0 +1,15 @@
+{
+ "scan_timestamp" : 1590382504,
+ "scan_time_ms" : 21965,
+ "susipcious_count" : 1,
+ "suspicious" : [
+  {
+   "pid" : 2656,
+   "name" : "dZYayWzy.exe",
+   "replaced" : 0,
+   "hdr_modified" : 0,
+   "implanted" : 1,
+   "detached" : 0
+  }
+ ]
+}
