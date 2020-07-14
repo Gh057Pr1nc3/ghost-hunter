@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'Mierb';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("font-files/MierB-Bold.woff2?v=3.11") format("woff2"),
+         url("font-files/MierB-Bold.woff2?v=3.11") format("woff");
+}
+@font-face {
+    font-family: 'Mierb';
+    font-style:  italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("font-files/MierB-BoldItalic.woff2?v=3.11") format("woff2"),
+         url("font-files/MierB-BoldItalic.woff2?v=3.11") format("woff");
+}
