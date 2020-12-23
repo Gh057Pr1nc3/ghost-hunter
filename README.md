@@ -1,2 +1,2 @@
 # ghost-hunter
-Ghost-hunter is tool can Process Injection
+Ghost-hunter is tool scan Process Injection
